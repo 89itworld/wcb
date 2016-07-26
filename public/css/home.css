@@ -1,0 +1,64 @@
+/* FEATURED STORES */
+#featuredStore{width:100%;float: left;margin-top:40px;}
+.section-heading {width: 100%;float: left;text-align: center;font-size: 20px;}
+.section-heading:before {border: 1px solid #e1e1e1;content: "";display: block;position: absolute;top: 50%;width: 100%;}
+.section-heading span {background: #fff;padding: 0 15px;position: relative;z-index: 1;    font-weight: normal;font-size: 20px;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif}
+.featuredlist{margin:30px 0 0 0;}
+.featuredlist .owl-nav{display: none}
+.featuredlist .owl-item{padding:10px 0}
+.fList-Block{float: left;border: 1px solid #ccc;text-align: center;height:150px;border-radius:100%;padding:0 25px}
+.fshadow{border:1px solid #D5D5D5;box-shadow: 1px 1px 4px #E3E3E3;}
+.featuredlist .fList-Block:first-child{margin-left:0}
+.featuredlist .fList-Block img{width: auto!important;padding:46px 0 0 0}
+.featuredlist .fList-Block h3 {font-size: 16px;padding:5px 0 0 0}
+/* HOME PAGE CATEGORIES */
+#home-cats{width:100%;float:left;margin:40px 0 0 0}
+.cat-block{width:49%;float:left;margin:0 2% 40px 0}
+.cat-block:nth-of-type(2n){margin-right:0;}
+.cat-block h3{display: block;text-align: center;border:1px solid #75a54a;color: #75a54a;padding: 8px 0;border-radius:2px;margin:0 0 20px 0}
+.cat-item{width: 100%;float: left}
+.cat-list{width: 45%;float:left;border:1px solid #efefef;padding: 16px 10px ;margin:8px 8px 0 0}
+.cat-list:nth-of-type(2n){margin-right:0;}
+.cat-list img{float: left;margin-right:20px;}
+.cat-list .cat-detail{float: right;text-align:center}
+.cat-list .cat-detail h2{font-size: 18px;color: #149E86}
+.cat-list .cat-detail h4{font-size: 13px;margin:3px 0 0 0;color: #000}
+.cat-list .cat-detail h2 span{font-size:13px;padding-right:4px;}
+/* STEPS */
+.steps{width:100%;float:left;padding:30px 0 50px 0}
+.steps h4{font-size: 30px;text-align: center;margin:0 0 50px 0}
+.st-block{width:30%;float:left;text-align: center;margin-left:5%}
+.st-block h3{width: 60px;font-size: 30px;border:1px solid #ccc;margin: 0 auto;overflow: hidden;padding:20px 0;color:#fff;border-radius:100%}
+.st-block label{width:100%;float:left;font-size: 20px;margin: 30px 0 10px 0}
+.st-block p{font-size: 16px;line-height: 20px}
+.col1{background: #009688}
+.col2{background: #4896D3}
+.col3{background: #4CAF50}
+.ccol1{color: #009688}
+.ccol2{color: #4896D3}
+.ccol3{color: #4CAF50}
+.marL0{margin-left:0}
+/* TESTIMONIALS */
+#testimonials{width:100%;float:left;padding:20px 0 40px 0}
+#testimonials .title{font-size:24px;color:#000}
+.cusReview{width:100%;float:left;margin:50px 0 0 0}
+.revBlock{width:30%;float:left;text-align: center;margin-right:5%}
+.revBlock:last-child{margin-right:0}
+.revImg{border-radius: 100%;overflow: hidden;width:100px;height:100px;margin:0 auto}
+.revImg img{width:100%}
+.revBlock p{font-size: 13px;color:#585454;line-height:16px;margin:20px 0 10px 0}
+.revBlock label{font-size:16px;color:#149E86}
+.revBlock em{width:100%;float:left;font-size:13px;color:#949494}
+/* NEWSLETTER */
+#benifits{width:100%;float:left;margin:40px 0 0 0;padding:30px 0}
+.beni{margin-top:50px;}
+.beniBlock{width:177px;float:left;display: inline-block;padding:14px;margin-right:16px;text-align: center;border:1px dashed #444}
+.beniBlock:nth-of-type(5n){margin-right:0}
+.beniBlock img{float: left; font-size:34px;padding-right:10px;}
+.beniBlock h3{display: table;text-align: left;line-height:18px;font-size: 14px;color:#000}
+.beniBlock h3 strong{font-size:14px;}
+.beniBlock .coll1{color:#F7511D}
+.beniBlock .coll2{color:#2F7374}
+.beniBlock .coll3{color:#0094FE}
+.beniBlock .coll4{color:#8A2068}
+.beniBlock .coll5{color:#4CAF50}
