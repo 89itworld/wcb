@@ -1,50 +1,24 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Amuk
- * Date: 13-06-2016
- * Time: 14:19
- */
-        ?>
+
 <div id="navmenu">
     <div class="container">
         <div class="sitemenu">
+            <?php   $categories=MyFuncs::getCategories(); ?>
             <nav>
                 <ul>
-                    <li>{!! Html::link('/','Home') !!}
-                    </li>
+                    <li><a href="/">HOME</a></li>
                     <li class="sub-menu-parent">
                         <a href="">CASHBACKS</a>
                         <ul class="sub-menu">
                             <li class="submhead"><i class="fa fa-cart-plus"></i>Shop By Category</li>
-                            <li><a href="allstores.php">All Stores</a></li>
-                            <li><a href="#">Business</a></li>
-                            <li><a href="#">DVD's & Movies</a></li>
-                            <li><a href="#">Food & Drinks</a></li>
-                            <li><a href="#">Home & Garden</a></li>
-                            <li><a href="#">Online Gaming</a></li>
-                            <li><a href="#">Toys & Games</a></li>
-                            <li><a href="#">Accessories & Jewellery</a></li>
-                            <li><a href="#">Cellular Phones</a></li>
-                            <li><a href="#">Education</a></li>
-                            <li><a href="#">Gadeges</a></li>
-                            <li><a href="#">Internet Softwares</a></li>
-                            <li><a href="#">All Stores</a></li>
-                            <li><a href="#">Business</a></li>
-                            <li><a href="#">DVD's & Movies</a></li>
-                            <li><a href="#">Food & Drinks</a></li>
-                            <li><a href="#">Home & Garden</a></li>
-                            <li><a href="#">Online Gaming</a></li>
-                            <li><a href="#">Toys & Games</a></li>
-                            <li><a href="#">Accessories & Jewellery</a></li>
-                            <li><a href="#">Cellular Phones</a></li>
-                            <li><a href="#">Education</a></li>
-                            <li><a href="#">Gadeges</a></li>
-                            <li><a href="#">Internet Softwares</a></li>
+                            <li><?php echo e(HTML::link(Config::get('SITE_URL').'',"All Stores")); ?></li>
+                            <?php foreach($categories as $category): ?>
+                              <li> <?php echo link_to(Config::get('SITE_URL')."category/".$category->category_url, $category->name, ['class' => 'btn btn-default btn-xs']); ?></li>
+                            <?php endforeach; ?>
                         </ul>
+
                     </li>
                     <li class="sub-menu-parent">
-                        {!! Html::link('get_coupons','Coupons') !!}
+                        <?php echo Html::link('get_coupons','COUPONS'); ?>
 
                     </li>
                     <li><a href="#">ABOUT US</a></li>
