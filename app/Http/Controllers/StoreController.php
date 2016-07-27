@@ -37,12 +37,15 @@ Class StoreController extends Controller{
                    break;
            }
 
-
+           $page_data='';
            if($show=='All')
                $show=100000;
 
               $retailersData = Retailers::select(['title','slug','cashback','url','image','old_cashback','description'])->where('status','active')->orderBy($rrorder, $show_type)->paginate($show);
-            return view('stores.index', ['retailers'=>$retailersData->appends(['show_type' => $show_type,'sort_by'=>$sort_by,'show'=>$show])]);
+           $page_data['first_item']=$retailersData->firstItem();
+           $page_data['last_item']=$retailersData->lastItem();
+           $page_data['total_items']=$retailersData->total();
+            return view('stores.index', ['retailers'=>$retailersData->appends(['show_type' => $show_type,'sort_by'=>$sort_by,'show'=>$show]),'page_data'=>$page_data]);
 
        }
       else if($letter=='')
@@ -55,6 +58,7 @@ Class StoreController extends Controller{
          }else if($letter =='0-9'){
 
            $retailersData = Retailers::where('status', 'active')->where(function ($inner_query) use ($date) {
+
                return $inner_query->where('end_date', '0000-00-00 00:00:00')->orWhere('end_date', '>=', $date->format('Y-m-d H:i:s'));
            })
                ->whereRaw('title REGEXP \'^[0-9]\'')->orderBy("visits", "DESC")->paginate(10);
@@ -65,9 +69,9 @@ Class StoreController extends Controller{
        print_r($retailersData->currentPage()+$retailersData->total());
      print_r($retailersData);
        exit;*/
-         $page_data['first_item']=$retailersData->firstItem();
-         $page_data['last_item']=$retailersData->lastItem();
-         $page_data['total_items']=$retailersData->total();
+       $page_data['first_item']=$retailersData->firstItem();
+       $page_data['last_item']=$retailersData->lastItem();
+       $page_data['total_items']=$retailersData->total();
 
         return view('stores.index', ['retailers'=>$retailersData,'page_data'=>$page_data]);
     }
