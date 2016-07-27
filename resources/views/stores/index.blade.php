@@ -14,31 +14,27 @@
                         </ul>
                     </div> <!-- sorybyalpha -->
                     <div class="sort-filter">
+                        {!! Form::open(['url' => 'retailer', 'method' => 'get', 'role' => 'form', 'class' => '','id'=>'search_criteria','name'=>'search_criteria']) !!}
                         <div class="sortBy">
                             <label>Sort by</label>
-                            <select>
-                                <option>Popularity</option>
-                                <option>Newest</option>
-                                <option>Cashback</option>
-                            </select>
-                            <select>
-                                <option>Ascending</option>
-                                <option>Descending</option>
-                            </select>
+                            {!! Input::old('sort_by') !!}
+                            @var  $sort_by_sources=array('title'=>'Name','visits'=>'Popularity','added'=>'Newest','cashback'=>'Cashback')
+                            {!!  Form::select('sort_by', $sort_by_sources, Input::get('sort_by'), ['id' => 'sort_by', 'class' => 'form-control','onChange'=>'document.search_criteria.submit()']) !!}
                         </div> <!-- sortBy -->
                         <div class="sortBy">
-                            <label>Results</label>
-                            <select>
-                                <option>All</option>
-                                <option>12</option>
-                                <option>24</option>
-                                <option>52</option>
-                                <option>100</option>
-                            </select>
+                        @var  $show_type_sources=array('ASC'=>'Ascending','DESC'=>'Descending');
+                        {!!  Form::select('show_type', $show_type_sources, Input::get('show_type'), ['id' => 'show_type', 'class' => 'form-control','onChange'=>'document.search_criteria.submit()']) !!}
+                        </div>
+                        <div class="sortBy">
+                            {{ Form::Label('show','City:') }}
+                            @var  $show_sources=array('All'=>'All','12'=>'12','24'=>'24','52'=>'52','100'=>'100');
+                            {!!  Form::select('show', $show_sources, Input::get('show'), ['id' => 'show', 'class' => 'form-control','onChange'=>'document.search_criteria.submit()']) !!}
                         </div> <!-- sortBy -->
                         <div class="resultcount">
-                            <label>Showing 1-12 of 204</label>
+
+                            <label>Showing {!! $page_data['first_item'] !!}-{!! $page_data['last_item'] !!} of {!! $page_data['total_items']!!}</label>
                         </div> <!-- resultcount -->
+                        {!! Form::close() !!}
                     </div> <!-- sort-filter -->
 
                     <div class="storeResult scroll">
@@ -65,8 +61,12 @@
                                 </div> <!-- storeBtn -->
                             </div> <!-- storeList -->
                     @endforeach
+
                     {{$retailers->links()}}
-                    <!--                    {!! $retailers->render() !!}
+{{--
+                     {!! $retailers->render() !!}
+--}}
+                    <!--
                             -->
                     </div> <!-- storeResult -->
                 </div> <!-- store-left -->

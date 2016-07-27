@@ -8,7 +8,8 @@
                     <h3>{!! Html::link("http://www.".$retailers->website,$retailers->website,['style=text-decoration:none;color:#F57D20;'])  !!} </h3>
                         <h4>FLIPKART COUPONS - {!! $retailers->total_coupons !!} OFFERS</h4>
                         @var  $description=MyFuncs::getTruncateText(html_entity_decode($retailers->description),300, 1)
-                        <p>{!! $description !!}</p>
+                        <div style="color: #565353;
+                          font-size: 14px;">{!! $description !!}</div>
                     </div> <!-- sdHead -->
                     <div class="sdshare">
                         <div class="sdrevicon">

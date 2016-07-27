@@ -51,19 +51,26 @@ class MyHlp {
     {
 
         $limit = (int)$limit;
+        $tags = array("<p>", "</p>");
+
+        $text= str_replace($tags, "", $text);
+
 
         if ($limit > 0 && strlen($text) > $limit)
         {
             $ntext = substr($text, 0, $limit);
-           $ntext = substr($ntext, 0, strrpos($ntext, ' '));
-            $break_line=strrpos($ntext, PHP_EOL);
+            $stop=strrpos($ntext, ' ');
+           $ntext = substr($ntext, 0, $stop);
+
+      /*      $break_line=strpos($ntext, PHP_EOL);
+            print_r($text);exit;
             $newtext='<div style="font-weight: bolder;">'.substr($ntext, 0, $break_line).'</div>';
-            $newtext .=' '.substr($ntext, $break_line, $limit);
-            $ttext = $newtext;
+            $newtext .=' '.substr($ntext, $break_line, $limit);*/
+            $ttext = $ntext;
 
             if ($more_link == 1)
             {
-                $ttext .= '<a id="next-button">Show More &raquo;</a><span id="hide-text-block" style="display: none">'.substr($text, $limit-1,strlen($text)).' <a id="prev-button" style="display: none">&laquo; Show Less</a></span>';
+                $ttext .= '<a id="next-button">Show More &raquo;</a><span id="hide-text-block" style="display: none">'.substr($text, $stop,strlen($text)).' <a id="prev-button" style="display: none">&laquo; Show Less</a></span>';
             }
             else
             {
@@ -75,6 +82,8 @@ class MyHlp {
         {
             $ttext = $text;
         }
+      /*  print_r($text);
+        print_r(substr($text, $limit-1,strlen($text)));exit;*/
         return $ttext;
     }
 }

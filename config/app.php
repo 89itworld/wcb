@@ -212,6 +212,7 @@ return [
         'providers'=>App\Providers\HelperServiceProvider::class,
         'MyFuncs' => App\Helpers\MyHlp::class,
         'Captcha' => Mews\Captcha\Facades\Captcha::class,
+        'Input' => Illuminate\Support\Facades\Input::class,
         //'Flash'             => Laracasts\Flash\Flash,
         
 

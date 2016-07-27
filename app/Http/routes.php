@@ -14,7 +14,7 @@
 
 
 Route::get('/', 'HomeController@getIndex');
-Route::get('/retailer', 'StoreController@getIndex');
+Route::get('/retailer/{letter?}', 'StoreController@getIndex');
 Route::get('/signUp', 'UserController@getRegistration');
 Route::get('/user_login', 'UserController@getLogin');
 Route::post('/user_login', 'UserController@postLogin');
