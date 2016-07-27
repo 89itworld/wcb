@@ -176,3 +176,17 @@ font-size: 12px;-webkit-border-radius: 30px;-moz-border-radius: 30px;border-radi
 .subscribe input:-moz-placeholder{color:#777}
 .subscribe input::-moz-placeholder{color:#777}
 .subscribe input:-ms-input-placeholder{color:#777}
+
+/*Css for  Show More Button By Yasar 27-July-2016*/
+#next-button, #prev-button {
+    color: #94D710;
+    margin-left: 3px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+    display: inline;
+}
+
+#next-button:hover, #prev-button:hover {
+    color: #777;
+}

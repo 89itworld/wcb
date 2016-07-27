@@ -5,7 +5,7 @@
             <?php   $categories=MyFuncs::getCategories(); ?>
             <nav>
                 <ul>
-                    <li><a href="/">HOME</a></li>
+                    <li><?php echo Html::link('/','Home'); ?></li>
                     <li class="sub-menu-parent">
                         <a href="">CASHBACKS</a>
                         <ul class="sub-menu">

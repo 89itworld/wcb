@@ -7,7 +7,8 @@
                     <div class="sdHead">
                     <h3>{!! Html::link("http://www.".$retailers->website,$retailers->website,['style=text-decoration:none;color:#F57D20;'])  !!} </h3>
                         <h4>FLIPKART COUPONS - {!! $retailers->total_coupons !!} OFFERS</h4>
-                        <label>{!! $retailers->description !!}</label>
+                        @var  $description=MyFuncs::getTruncateText(html_entity_decode($retailers->description),300, 1)
+                        <p>{!! $description !!}</p>
                     </div> <!-- sdHead -->
                     <div class="sdshare">
                         <div class="sdrevicon">
@@ -32,10 +33,10 @@
 
                     <div class="row">
                         <div class="storedetail owl-theme overflow">
-                            <div>{!! Html::image($retailers->image,'WhiteCashback') !!}</div>
-                            <div>{!! Html::image($retailers->image,'WhiteCashback') !!}</div>
-                            <div>{!! Html::image($retailers->image,'WhiteCashback') !!}</div>
-                            <div>{!! Html::image($retailers->image,'WhiteCashback') !!}</div>
+                            <div>{!! Html::image('public/images/flipkart-banner.jpg','WhiteCashback') !!}</div>
+                            <div>{!! Html::image('public/images/flipkart-banner.jpg','WhiteCashback') !!}</div>
+                            <div>{!! Html::image('public/images/flipkart-banner.jpg','WhiteCashback') !!}</div>
+                            <div>{!! Html::image('public/images/flipkart-banner.jpg','WhiteCashback') !!}</div>
                         </div>
                     </div> <!-- row -->
 
@@ -52,7 +53,7 @@
                                     <label>Expires:{!! date('F d, Y', strtotime($coupon->end_date)) !!}</label>
                                 </div> <!-- sdc-expire -->
                                 <p>{!! $coupon->title !!}</p>
-                                <span>{!! $coupon->description !!}</span>
+                                <span>MyFuncs::getTruncateText(html_entity_decode({!! $coupon->description !!}),70, 1)</span>
                             </div> <!-- sdc-left -->
                             <div class="sdc-right">
                                 <div class="sdc-ccode">
@@ -75,53 +76,23 @@
                     <div class="row id-about">
                         <div class="idab-left">
                             <h3>About Flipkart.com</h3>
-                            <img src="images/shoplogos/flipkart.jpg" alt="" />
+                            {!! Html::image('public/images/shoplogos/flipkart.jpg','WhiteCashback') !!}
 
                         </div> <!-- idab-left -->
-                        <p>One of the biggest e-commerce stores of India, Flipkart had started off as an online book store. Today, it has expanded to offer its customers a wide range of products across various categories including movies, music, games, mobiles, cameras, computers, healthcare and personal products, home appliances and electronics, stationery, perfumes, toys, apparels, shoes and more</p>
+                        <p>{!! $retailers->meta_description !!}</p>
                         <a href="">Go to store and earn cashback</a>
                     </div> <!-- id-about -->
                     <div class="row retTable">
                         <h3>Cashback Rates</h3>
                         <div class="id-table">
-                            <div class="row">
-                                <div class="idcell1">
-                                    New Desktop/Mobile Site User
-                                </div> <!-- idcell1 -->
-                                <div class="idcell2">
-                                    Cashback
-                                </div> <!-- idcell1 -->
-                            </div> <!-- row -->
-                            <div class="row trvcell">
-                                <div class="idtdcell1">
-                                    Electronics - (Storage,Computer Accessories,Laptop,Camera,Large Appliances,Computer Components,Camera Accessories,Media Player,Gaming,Media,Security Systems)
-                                </div> <!-- idtdcell1 -->
-                                <div class="idtdcell2">
-                                    0.0% / Sale
-                                </div> <!-- idtdcell2 -->
-                            </div> <!-- row -->
-                            <div class="row trvcell udtdbg">
-                                <div class="idtdcell1">
-                                    Others (Fashion,Home & Kitchen,Automotive,Baby,Kinds & Toys,Books & Stationary ,Sports & Health)
-                                </div> <!-- idtdcell1 -->
-                                <div class="idtdcell2">
-                                    0.0% / Sale
-                                </div> <!-- idtdcell2 -->
-                            </div> <!-- row -->
-                            <div class="row trvcell">
-                                <div class="idtdcell1">
-                                    Addition of money to PayTM Wallet, Gift Cards, Exclusive & Bank Coupon Codes
-                                </div> <!-- idtdcell1 -->
-                                <div class="idtdcell2">
-                                    0.0% / Sale
-                                </div> <!-- idtdcell2 -->
-                            </div> <!-- row -->
+                           {!! $retailers->cashback_rates !!}
                         </div> <!-- id-table -->
                     </div> <!-- row -->
                     <div class="row retTable">
                         <h3>Guidelines To Earn Cashback</h3>
                         <ul>
-                            <li> Always access the store site using your Whitecashback link only, to enable tracking your cash back.	</li>
+                            {!! $retailers->guidelines_to_earn  !!}
+                            {{--li> Always access the store site using your Whitecashback link only, to enable tracking your cash back.	</li>
                             <li> Do not type the online store’s name on your browser or search bar to access the page.</li>
                             <li> Using certain coupons may lead to no cashback. Cashback will be eligible for coupons when explicitly mentioned so.</li>
                             <li> Always make sure the browser cookies are enabled and the pop up blocker is disabled.</li>
@@ -129,7 +100,7 @@
                             <li> If you did visit another site, then do remember to clear old cookies from the browser before clicking through a link via Whitecashback.</li>
                             <li> Add products in your cart at the store site only AFTER you land on the store page via Whitecashback link/Whitecashback offers & not before.</li>
                             <li> Certain stores will not pay cashback on purchase of a gift certificate and/or using store credits.</li>
-                            <li> Complete the transaction in one online sitting on a single tab. Some stores do provide service of placing order through phone – in such cases, no cashback is paid by the store.</li>
+                            <li> Complete the transaction in one online sitting on a single tab. Some stores do provide service of placing order through phone – in such cases, no cashback is paid by the store.</li>--}}
                         </ul>
                     </div> <!-- retTable -->
                 </div> <!-- id-right -->

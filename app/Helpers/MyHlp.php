@@ -47,4 +47,34 @@ class MyHlp {
         }
         return $cat_retailers;
     }
+    public static function getTruncateText($text, $limit, $more_link = 0)
+    {
+
+        $limit = (int)$limit;
+
+        if ($limit > 0 && strlen($text) > $limit)
+        {
+            $ntext = substr($text, 0, $limit);
+           $ntext = substr($ntext, 0, strrpos($ntext, ' '));
+            $break_line=strrpos($ntext, PHP_EOL);
+            $newtext='<div style="font-weight: bolder;">'.substr($ntext, 0, $break_line).'</div>';
+            $newtext .=' '.substr($ntext, $break_line, $limit);
+            $ttext = $newtext;
+
+            if ($more_link == 1)
+            {
+                $ttext .= '<a id="next-button">Show More &raquo;</a><span id="hide-text-block" style="display: none">'.substr($text, $limit-1,strlen($text)).' <a id="prev-button" style="display: none">&laquo; Show Less</a></span>';
+            }
+            else
+            {
+                $ttext .= " ...";
+            }
+
+        }
+        else
+        {
+            $ttext = $text;
+        }
+        return $ttext;
+    }
 }

@@ -93,7 +93,9 @@
 {!! Html::script('public/js/jquery.min.js') !!}
 {!! Html::script('public/js/owl.carousel.js') !!}
 {!! Html::script('public/js/custom.js') !!}
-
+{{--
+<script type="text/javascript" src="{!! asset('assets/js/jquery.min.js') !!}"></script>
+--}}
 {{--<script type="text/javascript" src="{!! asset('assets/js/jquery.min.js') !!}"></script>--}}
 {{--<script type="text/javascript" src="{!! asset('assets/js/owl.carousel.js') !!}"></script>--}}
 {{--<script type="text/javascript" src="{!! asset('assets/js/custom.js') !!}"></script>--}}

@@ -74,14 +74,18 @@ class HomeController extends Controller
 
         }
         //$this->pr($cat_retailers);
-      /*  $cashback = WhitecashbackRetailers::limit(12)->where('featured', '=', 1)
-            ->where('end_date', '=', "0000-00-00 00:00:00")
-            ->orWhere('end_date', '>', 'NOW()')
-            ->where('status', '=', "'".'active'."'")
-            ->get();*/
-        $cashback=DB::select("SELECT title, slug, url, image FROM retailers WHERE featured='1' AND (end_date='0000-00-00 00:00:00' OR end_date > NOW()) AND status='active' ORDER BY RAND() LIMIT 12");
-       /* echo "<pre>";
-       print_r($cashback);exit;*/
+        $date= new DateTime();
+
+
+        $cashback = Retailers::where('featured', '=', 1)
+            ->where(function($inner_query) use ($date){return $inner_query->where('end_date','0000-00-00 00:00:00')->orWhere('end_date','>=',$date->format('Y-m-d H:i:s')); })
+            ->where('status','active')
+            ->select(array('retailer_id','title','slug','url','image'))
+            ->get();
+
+    //    $cashback=DB::select("SELECT retailer_id,title, slug, url, image FROM retailers WHERE featured='1' AND (end_date='0000-00-00 00:00:00' OR end_date > NOW()) AND status='active' ORDER BY RAND() LIMIT 12");
+
+
         return view('homes.index', ["cashbacks"=>$cashback,"retailers"=>$cat_retailers]);
      
     }
