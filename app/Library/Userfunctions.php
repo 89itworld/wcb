@@ -7,7 +7,7 @@
  */
 namespace App\library;
 use App\Models\Coupons;
-
+use App\Models\Settings;
 class Userfunctions{
     /**
      * @param       $button
@@ -69,35 +69,7 @@ class Userfunctions{
     }
 
 
-    function DisplayCashback($value)
-    {
-        if (empty($value) || $value == "")
-        {
-            return "";
-        }
-        if (strstr($value,'%'))
-        {
-            $cashback = $value;
-        }
-        elseif (strstr($value,'points'))
-        {
-            $cashback = str_replace("points"," ".CBE1_POINTS,$value);
-        }
-        else
-        {
-            switch (Config::get('constants.SITE_CURRENCY_FORMAT'))
-            {
-                case "1": $cashback = SITE_CURRENCY.$value; break;
-                case "2": $cashback = SITE_CURRENCY." ".$value; break;
-                case "3": $cashback = SITE_CURRENCY.number_format($value, 2, ',', ''); break;
-                case "4": $cashback = $value." ".SITE_CURRENCY; break;
-                case "5": $cashback = $value.SITE_CURRENCY; break;
-                default: $cashback = SITE_CURRENCY.$value; break;
-            }
-        }
 
-        return $cashback;
-    }
 
     public static function GetStoreReviewsTotal($retailer_id, $all = 0, $word = 1)
     {
@@ -126,5 +98,50 @@ class Userfunctions{
     {
         $coupon_total=Coupons::where('retailer_id', (int)$retailer_id)->where('status', 'active')->count();
         return($coupon_total);
+    }
+
+   public static  function DisplayCashback($value)
+    {
+        if (empty($value) || $value == "")
+        {
+            return "";
+        }
+        if (strstr($value,'%'))
+        {
+            $cashback = $value;
+        }
+        elseif (strstr($value,'points'))
+        {
+            $cashback = str_replace("points"," ".'points',$value);
+        }
+        else
+        {
+            switch (Config('constants.SITE_CURRENCY_FORMAT'))
+            {
+                case "1": $cashback = Config('constants.SITE_CURRENCY').$value; break;
+                case "2": $cashback = Config('constants.SITE_CURRENCY')." ".$value; break;
+                case "3": $cashback = Config('constants.SITE_CURRENCY').number_format($value, 2, ',', ''); break;
+                case "4": $cashback = $value." ".Config('constants.SITE_CURRENCY'); break;
+                case "5": $cashback = $value.Config('constants.SITE_CURRENCY'); break;
+                default: $cashback = Config('constants.SITE_CURRENCY').$value; break;
+            }
+        }
+
+        return $cashback;
+    }
+
+    public static function GetRetailerLink_BySlug($slug, $retailer_title = "")
+    {
+        $slug = $slug;
+        $retailer_link = Config('constants.SITE_URL') . "view-retailer/" . $slug;
+        return $retailer_link;
+    }
+    public static function getSettings($search){
+
+        //$setting_data=Settings::where('setting_key','website_currency')->select(['setting_value'])->get();
+
+        print_r($search);exit;
+        /*$setting_data=Settings::where('setting_key',$search)->select(['setting_value'])->get();
+        print_r($search);exit;*/
     }
 }

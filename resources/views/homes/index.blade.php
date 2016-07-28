@@ -54,7 +54,7 @@
                     <div class="cat-item">
                         @foreach($retailer as $key=>$item)
                         <div class="cat-list">
-                           <a href="<?php echo Config::get('SITE_URL')."view-retailer/".$item->slug; ?>">
+                           <a href="{!! Config('constants.SITE_URL')."view-retailer/".$item->slug  !!} ">
                             {!! Html::image("public/images/logos/".$item->image,$alt="whitecashback-".$item->slug) !!}
                             <div class="cat-detail">
                                 <h2><span>Upto</span>{!! $item->cashback !!}</h2>

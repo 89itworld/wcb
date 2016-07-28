@@ -93,6 +93,10 @@
 {!! Html::script('public/js/jquery.min.js') !!}
 {!! Html::script('public/js/owl.carousel.js') !!}
 {!! Html::script('public/js/custom.js') !!}
+{!! Html::script('public/js/jquery-ui.min.js') !!}
+<script>
+    $(function(){$(".search_textbox").autocomplete({source:"{!! Config('constants.SITE_URL')   !!}/coupons/get_search_coupons",minLength:1,create:function(e,a){$(this).data("ui-autocomplete")._renderItem=function(e,a){return $("<li>").append('<div class="autocompleteStore">'+a.key+'</div><div class="autocompleteCashback"><span class="cashback-icon"></span><span class="cashback-text"> <span class="ac_cashback">'+a.desc+"</span></span></div>").appendTo(e).css("position","static")}},select:function(e,a){var s=a.item.label;$("#searchtext").val(s);$("#searchfrm").attr("action",a.item.url),location.href=a.item.url},messages:{noResults:"",results:function(){}}}),$(".responsive-search_textbox").autocomplete({source:+"{!! Config('constants.SITE_URL') !!}"+"/coupons/get_search_coupons",minLength:1,create:function(e,a){$(this).data("ui-autocomplete")._renderItem=function(e,a){return $("<li>").append('<div class="autocompleteStore">'+a.key+'</div><div class="autocompleteCashback"><span class="cashback-icon"></span><span class="cashback-text"> <span class="ac_cashback">'+a.desc+"</span></span></div>").appendTo(e).css("position","static")}},select:function(e,a){var s=a.item.label;$("#responsive-searchtext").val(s);$("#responsive_searchfrm").attr("action",a.item.url),location.href=a.item.url},messages:{noResults:"",results:function(){}}})});
+</script>
 {{--
 <script type="text/javascript" src="{!! asset('assets/js/jquery.min.js') !!}"></script>
 --}}

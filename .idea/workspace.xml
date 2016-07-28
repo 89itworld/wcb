@@ -4,7 +4,6 @@
     <list default="true" id="95c3864b-0ac4-456e-a8c7-df56c44b9dc4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/captcha-com/captcha" afterPath="$PROJECT_DIR$/vendor/captcha-com/captcha" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/captcha-com/laravel-captcha" afterPath="$PROJECT_DIR$/vendor/captcha-com/laravel-captcha" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/StoreController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/StoreController.php" />
     </list>
     <ignored path="whitecashback_laravel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -600,12 +599,12 @@
       <workItem from="1469532649557" duration="285000" />
       <workItem from="1469536435786" duration="896000" />
       <workItem from="1469591073684" duration="6853000" />
-      <workItem from="1469598147675" duration="22553000" />
+      <workItem from="1469598147675" duration="23151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30587000" />
+    <option name="totallyTimeSpent" value="31185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />

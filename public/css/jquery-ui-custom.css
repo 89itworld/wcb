@@ -1,0 +1,102 @@
+.ui-autocomplete, .ui-menu .ui-menu {
+    position: absolute
+}
+.ui-autocomplete > li > span {
+    float: right;
+    width: 140px;
+    text-align: right
+}
+.ui-front {
+    z-index: 100
+}
+.ui-autocomplete {
+    top: 0;
+    left: 0;
+    cursor: default
+}
+.ui-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    outline: 0
+}
+.ui-menu .ui-menu-item {
+    position: relative;
+    margin: 0;
+    padding: 3px 1em 3px .4em;
+    cursor: pointer;
+    min-height: 0;
+    font-size: 11px
+}
+.ui-menu .ui-menu-item:hover {
+    background: #fce5d6;
+    color: #F26522
+}
+.ui-menu .ui-menu-divider {
+    margin: 5px 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-width: 1px 0 0
+}
+
+.ui-menu-icons {
+    position: relative
+}
+.ui-menu-icons .ui-menu-item {
+    padding-left: 2em
+}
+.ui-menu .ui-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: .2em;
+    margin: auto 0
+}
+.ui-menu .ui-menu-icon {
+    left: auto;
+    right: 0
+}
+.ui-widget .ui-widget {
+    font-size: 1em
+}
+.ui-widget button, .ui-widget input, .ui-widget select, .ui-widget textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em
+}
+.ui-widget-content {
+    border: 1px solid #ddd;
+    background: rgba(255, 255, 255, 0.94);
+    color: #F26522;
+    z-index: 11111
+}
+.ui-widget-content a {
+    color: #F26522
+}
+.ui-state-focus {
+    background: #fce5d6;
+    color: #F26522
+}
+/*Autocompleet*/
+.ui-widget-content .ui-menu-item .autocompleteStore,
+.ui-widget-content .ui-menu-item .autocompleteCashback{
+    display: inline-block;
+}
+.ui-widget-content .ui-menu-item .autocompleteStore {
+    padding-left:10px;
+}
+.ui-widget-content .ui-menu-item .autocompleteCashback{
+    position: absolute;
+    right: 0;
+    width: 150px;
+}
+.ui-autocomplete li .cashback-icon {
+    background: url(../images/money.png) 0 0/20px auto no-repeat;
+    display: inline-block;
+    height: 16px;
+    margin-right: 4px;
+    margin-top: 0;
+    vertical-align: middle;
+    width: 20px
+}

@@ -202,7 +202,9 @@ class UserController extends Controller
         \Auth::logout(); // log the user out of our application
         return Redirect::to('user_login'); // redirect the user to the login screen
     }
-
+  public function getMyAccount(){
+      return view('users.user_account');
+  }
 
 }
 

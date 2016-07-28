@@ -5,6 +5,7 @@
  * Date: 03-06-2016
  */
   ?>
+
     <div id="header">
         <div class="container">
             <div class="row">
@@ -15,7 +16,7 @@
                 </div> <!-- Logo -->
                 <div class="site-search posrel">
                     <h1>GET THE HIGHEST CASHBACK WITH WHITECASHBACK</h1>
-                    <input type="text" name="search" placeholder="Looking for coupons? Search Here" />
+                    {!! Form::text('search',Input::get('search'),array('placeholder'=>'Looking For Coupons? Search Here','id'=>'searchtext','class'=>'search_textbox')) !!}
                     <button class="search-btn" ><i class="fa fa-search"></i></button>
                 </div> <!-- site-search -->
                 <div class="login-links">

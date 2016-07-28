@@ -15,6 +15,8 @@
     {!! Html::style('public/css/home.css') !!}
     {!! Html::style('public/css/common.css') !!}
     {!! Html::style('public/css/font-awesome.min.css') !!}
+    {!! Html::style('public/css/jquery-ui-custom.css') !!}
+
 
     {{--<link rel="stylesheet" type="text/css" href="{!! asset('assets/css/layout.css') !!}" />--}}
 

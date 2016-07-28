@@ -31,6 +31,10 @@
                             {!!  Form::select('show', $show_sources, Input::get('show'), ['id' => 'show', 'class' => 'form-control','onChange'=>'document.search_criteria.submit()']) !!}
                         </div> <!-- sortBy -->
                         <div class="resultcount">
+                            {!!  Form::hidden('letter', isset($letter)?$letter:Input::get('letter'), ['id' => 'letter', 'class' => 'form-control']) !!}
+
+                            {!!  Form::hidden('cat', isset($cat)?$cat:Input::get('cat'), ['id' => 'cat', 'class' => 'form-control']) !!}
+
 
                             <label>Showing {!! $page_data['first_item'] !!}-{!! $page_data['last_item'] !!} of {!! $page_data['total_items']!!}</label>
                         </div> <!-- resultcount -->
@@ -48,6 +52,7 @@
                                     </p>
                                 </div> <!-- storeImg -->
                                 <div class="storetxt">
+
                                     <h3><a href="<?php echo Config::get('SITE_URL')."view-retailer/".$retailer->slug; ?>">{!! $retailer->title !!}</a></h3>
                                     <p>{!! $retailer->description !!} </p>
                                     <ul>

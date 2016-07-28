@@ -77,7 +77,7 @@
                             </a>
                             <ul class="sub-menu">
                                 <li><a href="">My Wallet</a></li>
-                                <li><a href="">My Profile</a></li>
+                                <li>{!! Html::link('myaccount','My Profile') !!}</li>
                                 <li><a href="">Refer Friend</a></li>
                                 <li><a href="">Payment Details</a></li>
                                 <li><a href="">Withdraw</a></li>
