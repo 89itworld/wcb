@@ -143,7 +143,7 @@ class UserController extends Controller
         $user->status='active';
         $user->save();
 
-        return Redirect::route('user_login');
+        return view('users.login');
 
     }
 
