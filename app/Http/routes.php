@@ -41,6 +41,10 @@ Route::get('register/verify/{confirmationCode}', [
     'as' => 'confirmation_path',
     'uses' => 'UserController@confirm'
 ]);
+
+
+
 Blade::extend(function($value) {
     return preg_replace('/\@var(.+)/', '<?php ${1}; ?>', $value);
 });
+
