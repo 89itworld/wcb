@@ -67,6 +67,7 @@ class UserController extends Controller
 
     public function postRegistration(Request $request)
     {
+
         if ($request->isMethod('post')) {
             $agree = $request['terms'];
             if($agree){
@@ -77,7 +78,7 @@ class UserController extends Controller
             if ($isHuman) {
                 $rules = [
                     'username' => 'required',
-                    'email' => 'required|email',
+                    'email' => 'required|email|unique:users',
                     'password' => 'required|confirmed'
                 ];
                 $input = Input::only(
