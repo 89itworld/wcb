@@ -42,7 +42,7 @@ Route::get('register/verify/{confirmationCode}', [
     'uses' => 'UserController@confirm'
 ]);
 
-yasar
+
 
 Blade::extend(function($value) {
     return preg_replace('/\@var(.+)/', '<?php ${1}; ?>', $value);
