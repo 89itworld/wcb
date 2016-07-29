@@ -73,7 +73,7 @@
                     <ul>
                         <li class="sub-menu-parent">
                             <a href="">
-                                <h3><i class="fa fa-user wuser"></i> Naresh<label> ( Wallet <i class="fa fa-rupee"></i>200 )</label></h3>
+                                <h3><i class="fa fa-user wuser"></i> Naresh1<label> ( Wallet <i class="fa fa-rupee"></i>200 )</label></h3>
                             </a>
                             <ul class="sub-menu">
                                 <li><a href="">My Wallet</a></li>
