@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fdbce355af70ecfda856f8077759f20c",
+    "hash": "67829c1f5560fc2c7a0af833bb49deac",
     "content-hash": "63145a4333948d0a0408cb01055b41c2",
     "packages": [
         {
@@ -53,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/captcha-com/laravel-captcha.git",
-                "reference": "6e30020bce79391e517b1bbdca674f42a33cfb8d"
+                "reference": "0258696297a97348c38fa5106e48b40fc4dbf262"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/captcha-com/laravel-captcha/zipball/6e30020bce79391e517b1bbdca674f42a33cfb8d",
-                "reference": "6e30020bce79391e517b1bbdca674f42a33cfb8d",
+                "url": "https://api.github.com/repos/captcha-com/laravel-captcha/zipball/0258696297a97348c38fa5106e48b40fc4dbf262",
+                "reference": "0258696297a97348c38fa5106e48b40fc4dbf262",
                 "shasum": ""
             },
             "require": {
@@ -93,7 +93,7 @@
                 "Laravel Captcha",
                 "captcha"
             ],
-            "time": "2016-06-06 13:37:53"
+            "time": "2016-07-27 05:43:45"
         },
         {
             "name": "classpreloader/classpreloader",
@@ -570,12 +570,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "a5e56a5cd11983b0b67740a6af2f25e23cd9b8e8"
+                "reference": "9b6b257e0818cd32f9ad64d017cac8650bba1686"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/a5e56a5cd11983b0b67740a6af2f25e23cd9b8e8",
-                "reference": "a5e56a5cd11983b0b67740a6af2f25e23cd9b8e8",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/9b6b257e0818cd32f9ad64d017cac8650bba1686",
+                "reference": "9b6b257e0818cd32f9ad64d017cac8650bba1686",
                 "shasum": ""
             },
             "require": {
@@ -692,7 +692,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-07-26 02:22:28"
+            "time": "2016-07-29 04:03:54"
         },
         {
             "name": "laravelcollective/html",
@@ -754,12 +754,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "68e51f2b8502065eeb5bbe38e2f9445f9a4c804e"
+                "reference": "c4b54d6094c0f0b9e711f4655459dc60cee0a626"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/68e51f2b8502065eeb5bbe38e2f9445f9a4c804e",
-                "reference": "68e51f2b8502065eeb5bbe38e2f9445f9a4c804e",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/c4b54d6094c0f0b9e711f4655459dc60cee0a626",
+                "reference": "c4b54d6094c0f0b9e711f4655459dc60cee0a626",
                 "shasum": ""
             },
             "require": {
@@ -829,7 +829,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2016-07-21 09:35:56"
+            "time": "2016-07-27 15:50:20"
         },
         {
             "name": "mews/captcha",
@@ -1667,12 +1667,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "9011fb3c859c548275853059e402daf482b61e17"
+                "reference": "fedd4337f3442b2776a9a683fc71a9e09f2d8b8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/9011fb3c859c548275853059e402daf482b61e17",
-                "reference": "9011fb3c859c548275853059e402daf482b61e17",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/fedd4337f3442b2776a9a683fc71a9e09f2d8b8d",
+                "reference": "fedd4337f3442b2776a9a683fc71a9e09f2d8b8d",
                 "shasum": ""
             },
             "require": {
@@ -1741,7 +1741,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-26 08:03:56"
+            "time": "2016-07-28 11:13:34"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1916,12 +1916,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "aa984964554884eb58db5db09b2f2341e6d6daef"
+                "reference": "768debc5996f599c4372b322d9061dba2a4bf505"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/aa984964554884eb58db5db09b2f2341e6d6daef",
-                "reference": "aa984964554884eb58db5db09b2f2341e6d6daef",
+                "url": "https://api.github.com/repos/symfony/process/zipball/768debc5996f599c4372b322d9061dba2a4bf505",
+                "reference": "768debc5996f599c4372b322d9061dba2a4bf505",
                 "shasum": ""
             },
             "require": {
@@ -1957,7 +1957,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-26 08:03:56"
+            "time": "2016-07-28 11:13:34"
         },
         {
             "name": "symfony/routing",
