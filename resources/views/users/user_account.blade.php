@@ -4,9 +4,8 @@
 <div id="innerPage">
     <div class="container">
         <div class="userpanel">
-            @include('layouts/common/error', ['type' => 'danger', 'message' => session('alert-fail')])
+            @include('layouts/common/user_sidebar'  )
 
-        <?php include('user_sidebar.blade');?>
             <div class="user-content">
                 <h3>My Profile</h3>
                 <div class="prof-left">

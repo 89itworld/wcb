@@ -31,7 +31,6 @@
 						<h3>OR</h3>
 						<label>Login With Whitecashback Account</label>
 					</div> <!-- row -->
-
 					<div class="row logform">
 						{!! Form::open(['url' => 'user_login', 'method' => 'post', 'role' => 'form', 'class' => '']) !!}
 
@@ -40,7 +39,7 @@
 
 						{!! Form::password('password',['class' => '','placeholder' => 'Password']) !!}
 						<div class="error">{{ $errors->first('password') }}</div>
-						@if ($alert = Session::get('alert-success'))
+						@if (Session::get('alert-fail'))
 							@include('partials/error', ['type' => 'danger', 'message' => session('alert-fail')])
 						@endif
 						{!! Form::submit('Login',"", ['class' => '','placeholder' => '']) !!}

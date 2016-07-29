@@ -30,7 +30,7 @@ return array(
     'App\\Models\\RetailerToCategory' => $baseDir . '/app/Models/RetailerToCategory.php',
     'App\\Models\\Retailers' => $baseDir . '/app/Models/Retailers.php',
     'App\\Models\\Settings' => $baseDir . '/app/Models/Settings.php',
-    'App\\Models\\User' => $baseDir . '/app/Models/User_old.php',
+    'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'App\\Providers\\AuthServiceProvider' => $baseDir . '/app/Providers/AuthServiceProvider.php',
     'App\\Providers\\EventServiceProvider' => $baseDir . '/app/Providers/EventServiceProvider.php',

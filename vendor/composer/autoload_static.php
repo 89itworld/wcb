@@ -334,7 +334,7 @@ class ComposerStaticInit58b533660c66fd4e7b3d6febeed3b8bf
         'App\\Models\\RetailerToCategory' => __DIR__ . '/../..' . '/app/Models/RetailerToCategory.php',
         'App\\Models\\Retailers' => __DIR__ . '/../..' . '/app/Models/Retailers.php',
         'App\\Models\\Settings' => __DIR__ . '/../..' . '/app/Models/Settings.php',
-        'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User_old.php',
+        'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',

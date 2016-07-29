@@ -187,10 +187,11 @@ class UserController extends Controller
                 // return Redirect::to('secure');
                 // for now we'll just echo success (even though echoing in a controller is bad)
                 session()->flash('alert-success','Login Successfull');
+
                 return Redirect::to('/');
 
             } else {
-
+                session()->flash('alert-fail','User Inactive/Wrong Credentials.');
                 // validation not successful, send back to form
                 return Redirect::to('user_login')->with('alert-fail', 'User Inactive/Wrong Credentials.');
             }
