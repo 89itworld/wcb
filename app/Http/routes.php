@@ -24,6 +24,7 @@ Route::get('view-retailer/{retailers}', 'HomeController@getViewRetailer');
 Route::get('/category/{cat}', 'StoreController@getIndex');
 Route::get('/coupons/get_search_coupons', 'StoreController@getSearchCoupons');
 Route::get('/myaccount', 'UserController@getMyAccount');
+Route::post('/updateUserInfo', 'UserController@UpdateUserInfo');
 
 
 

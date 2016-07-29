@@ -68,13 +68,14 @@
 
             </div> <!-- mobileMenu -->
         </div> <!-- sitemenu -->
+        <?php if(\Auth::user()): ?>
         <div class="userLogs">
             <div class="sitemenu">
                 <nav>
                     <ul>
                         <li class="sub-menu-parent">
                             <a href="">
-                                <h3><i class="fa fa-user wuser"></i> Naresh1<label> ( Wallet <i class="fa fa-rupee"></i>200 )</label></h3>
+                                <h3><i class="fa fa-user wuser"></i> <?php echo \Auth::user()->username; ?><label> ( Wallet <i class="fa fa-rupee"></i>200 )</label></h3>
                             </a>
                             <ul class="sub-menu">
                                 <li><a href="">My Wallet</a></li>
@@ -89,6 +90,7 @@
                 </nav>
             </div> <!-- sitemenu -->
         </div> <!-- userLogs -->
+       <?php endif; ?>
 
     </div> <!-- container -->
 </div> <!-- navmenu -->

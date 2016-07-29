@@ -7,6 +7,7 @@
  */
 namespace App\Http\Controllers;
 
+use App\Models\Country;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -15,7 +16,7 @@ use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Redirect;
 
 use Illuminate\Contracts\Auth\Guard;
-
+use Hash;
 
 class UserController extends Controller
 {
@@ -103,7 +104,7 @@ class UserController extends Controller
                 User::create([
                     'username' => Input::get('username'),
                     'email' => Input::get('email'),
-                    'password' => \Hash::make(Input::get('password')),
+                    'password' => md5(sha1(Input::get('password'))),
                     'activation_key' => $confirmation_code,
                     'unsubscribe_key' => $confirmation_code,
                     'status'=>'inactive'
@@ -205,8 +206,45 @@ class UserController extends Controller
         return Redirect::to('user_login'); // redirect the user to the login screen
     }
   public function getMyAccount(){
-      return view('users.user_account');
+      $user=\Auth::user();
+      $country=(array)Country::select('name')->get()->toArray();
+      $countries='';
+      foreach ($country as $cntry)
+          $countries[]=$cntry['name'];
+
+      $user_data=User::where('id',$user->id)->select('username','fname','lname','email','address','address2','city','state','country','password','phone')->first();
+     return view('users.user_account')->with('user_data',$user_data)->with('countries',$countries);
   }
+
+  public function UpdateUserInfo(Request $request)
+  {
+      $user = \Auth::user()->id;
+      if ($request->isMethod('post')) {
+          $validation = Validator::make(Input::all(),
+              array(
+
+                  'username' => 'max:100',
+                  'address' => 'min:3',
+                  'city' => 'min:3',
+                  'phone' => 'min:11',
+                  'mobile' => 'min:11',
+                  'email' => 'email|unique:users,email,'.$user,
+
+              )
+          ); //close validation
+
+          if ($validation->fails()) {
+              //withInput keep the users info
+              return Redirect::back()->withInput()->withErrors($validation->messages());
+          } else {
+               User::where('id', $user)->update(Input::except(['_method', '_token']));
+              session()->flash('alert-success','Profile Updated Successfully.');
+              // validation not successful, send back to form
+              return Redirect::back();
+
+           }
+        }
+    }
 
 }
 
