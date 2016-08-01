@@ -212,6 +212,7 @@
 .prof-info{width:100%;float:left;margin:20px 0 0 0 }
 .prof-info label{font-size: 12px;padding: 0 0 3px 0;display: block;float: left;margin: 6px 10px 0 0;width: 120px;color: #666;}
 .prof-info input[type='text']{width:58.7%!important;float:left!important;clear: none!important;border-radius:2px;}
+.prof-info input[type='email']{width:58.7%!important;}
 .prof-info input[type='password']{width:58%!important;float:left!important;clear: none!important;border-radius:2px;}
 .prof-info input[type="submit"]{float: right}
 .prof-info select{width:58%!important;float:left;clear: none!important;border-radius:2px;}

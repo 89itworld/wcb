@@ -310,6 +310,7 @@ class ComposerStaticInit58b533660c66fd4e7b3d6febeed3b8bf
     );
 
     public static $classMap = array (
+        'App\\library\\Userfunctions' => __DIR__ . '/../..' . '/app/Library/Userfunctions.php',
         'CreateCouponsTable' => __DIR__ . '/../..' . '/database/migrations/2016_07_20_101733_create_coupons_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
@@ -386,6 +387,8 @@ class ComposerStaticInit58b533660c66fd4e7b3d6febeed3b8bf
         'Hamcrest\\Util' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
         'Hamcrest\\Xml\\HasXPath' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
         'IlluminateQueueClosure' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Queue/IlluminateQueueClosure.php',
+        'MD5HashServiceProvider' => __DIR__ . '/../..' . '/app/Library/MD5HashServiceProvider.php',
+        'MD5Hasher' => __DIR__ . '/../..' . '/app/Library/MD5Hasher.php',
         'PHPUnit_Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit_Extensions_GroupTestSuite' => __DIR__ . '/..' . '/phpunit/phpunit/src/Extensions/GroupTestSuite.php',
         'PHPUnit_Extensions_PhptTestCase' => __DIR__ . '/..' . '/phpunit/phpunit/src/Extensions/PhptTestCase.php',

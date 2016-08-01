@@ -2,63 +2,90 @@
 <div id="innerPage">
     <div class="container">
         <div class="userpanel">
-            <?php echo $__env->make('layouts/common/user_sidebar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+            <?php echo $__env->make('layouts/common/user_sidebar'  , array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
             <div class="user-content">
                 <h3>My Profile</h3>
                 <div class="prof-left">
                     <h4>Profile Information</h4>
+                    <?php echo Form::open(['url'=>'updateUserInfo','method'=>'post']); ?>
+
                     <div class="prof-info">
                         <div class="prof-cell contForm">
                             <label>First Name</label>
-                            <input type="text" name="name" value="Naresh">
+                            <?php echo Form::text('fname',$user_data->fname,['id'=>'fname','placeholder'=>'First Name']); ?>
+
+                            <span class="error"><?php echo $errors->first('fname'); ?></span>
                         </div> <!-- prof-cell -->
                         <div class="prof-cell contForm">
                             <label>Last Name</label>
-                            <input type="text" name="name" value="Chamola">
+                            <?php echo Form::text('lname',$user_data->lname,['id'=>'lname','placeholder'=>'Last Name']); ?>
+
+                            <span class="error"><?php echo $errors->first('lname'); ?></span>
                         </div> <!-- prof-cell -->
                         <div class="prof-cell contForm">
                             <label>Email Address</label>
-                            <input type="text" name="name" value="nareshchamola@gmail.com">
+                            <?php echo Form::email('email',$user_data->email,['id'=>'email','placeholder'=>'Email']); ?>
+
+                            <span class="error"><?php echo $errors->first('email'); ?></span>
                         </div> <!-- prof-cell -->
                         <div class="prof-cell contForm">
                             <label>User Name</label>
-                            <input type="text" name="name" value="Naresh">
+                            <?php echo Form::text('username',$user_data->username,['id'=>'username','placeholder'=>'Username']); ?>
+
                         </div> <!-- prof-cell -->
                         <div class="prof-cell contForm">
                             <label>Address Line1</label>
-                            <input type="text" name="name" value="">
+                            <?php echo Form::text('address',$user_data->address,['id'=>'address','placeholder'=>'Address']); ?>
+
+                            <span class="error"><?php echo $errors->first('address'); ?></span>
                         </div> <!-- prof-cell -->
                         <div class="prof-cell contForm">
                             <label>City</label>
-                            <input type="text" name="name" value="Dehradun">
+                            <?php echo Form::text('city',$user_data->city,['id'=>'city','placeholder'=>'City']); ?>
+
+                            <span class="error"><?php echo $errors->first('city'); ?></span>
                         </div> <!-- prof-cell -->
                         <div class="prof-cell contForm">
                             <label>State/Province</label>
-                            <input type="text" name="name" value="Dehradun">
+                            <?php echo Form::text('state',$user_data->state,['id'=>'state','placeholder'=>'State']); ?>
+
+                            <span class="error"><?php echo $errors->first('state'); ?></span>
                         </div> <!-- prof-cell -->
                         <div class="prof-cell contForm">
                             <label>Select Country</label>
-                            <select>
-                                <option>Select Country</option>
-                            </select>
+                            <?php echo Form::select('country',$countries,['India','USA']); ?>
+
+                            <span class="error"><?php echo $errors->first('country'); ?></span>
                         </div> <!-- prof-cell -->
                         <div class="prof-cell contForm">
                             <label>Phone Number</label>
-                            <input type="text" name="name" value="">
+                            <?php echo Form::text('phone',$user_data->phone,['id'=>'phone','placeholder'=>'Phone Number']); ?>
+
+                            <span class="error"><?php echo $errors->first('phone'); ?></span>
                         </div> <!-- prof-cell -->
                         <div class="prof-cell contForm">
-                            <input type="submit"  value="Update Profile" />
+                             <?php echo Form::submit('Update Profile'); ?>
+
                         </div> <!-- prof-cell -->
                     </div> <!-- prof-info -->
+                    <div class="clearfix"></div>
+                    <?php if(session()->has('alert-success')): ?>
+                        <?php echo $__env->make('partials/error', ['type' => 'success', 'message' => session('alert-success')], array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+                    <?php endif; ?>
+                    <?php echo Form::close(); ?>
+
                 </div> <!-- prof-left -->
 
                 <div class="prof-left">
                     <h4>Change Password</h4>
                     <div class="prof-info">
+                       <?php echo Form::open(['url'=>'updatePassword','method'=>'post']); ?>
+
                         <div class="prof-cell contForm">
                             <label>Current Password</label>
-                            <input type="password" name="name" value="">
+                            <?php echo Form::password('old_password',['id'=>'old_password','placeholder'=>'Password']); ?>
+
                         </div> <!-- prof-cell -->
                         <div class="prof-cell contForm">
                             <label>New Password</label>
@@ -72,6 +99,8 @@
                         <div class="prof-cell contForm">
                             <input type="submit"  value="Change Password" />
                         </div> <!-- prof-cell -->
+                        <?php echo Form::close(); ?>
+
                     </div> <!-- prof-info -->
                 </div> <!-- prof-left -->
 

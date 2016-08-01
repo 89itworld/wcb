@@ -3,6 +3,8 @@
 namespace App\Helpers;
 use Illuminate\Support\Facades\DB;
 use App\Models\Categories;
+use App\Models\Transaction;
+
 
 
 class MyHlp {
@@ -85,5 +87,80 @@ class MyHlp {
       /*  print_r($text);
         print_r(substr($text, $limit-1,strlen($text)));exit;*/
         return $ttext;
+    }
+
+    public static function GetUserBalance($userid, $hide_currency_option = 0)
+    {
+      /*  $total=Transaction::where('user_id',(int)$userid)
+            ->where('status','confirmed')
+            ->where(function($query) use($userid){return $query->where('user_id',(int)$userid)->where(function($innser_q2){return $innser_q2->where('status','paid')->orWhere('status','request');})->select(DB::raw('SUM(amount) as amount1'))->from(with(new Transaction())->getTable())
+                ->orWhere(function($innser_q){return $innser_q->where('payment_type','Withdrawal')->orWhere('status','declined');});})
+            ->select(DB::raw('SUM(amount)'))->get();*/
+        $row_confirmed=Transaction::where('user_id',(int)16)
+            ->where('status','confirmed')
+            ->select(DB::raw('SUM(amount) as total'))->first();
+        $row_paid=0;
+      if($row_confirmed->total>0)
+      {
+          $row_paid=Transaction::where('user_id',(int)16)->where(function($query){$query->where('status','paid')->orWhere('status','request');})->orWhere(function($inner_query){return $inner_query->where('payment_type','Withdrawal')->where('status','declined');})
+              ->select(DB::raw('SUM(amount) as total'))->first();
+          $balance=$row_confirmed->total-$row_paid->total;
+          return MyHlp::DisplayMoney($balance, $hide_currency_option);
+      }
+        return MyHlp::DisplayMoney(0, $hide_currency_option);
+
+
+
+        /*$query = "SELECT SUM(amount) AS total FROM cashbackengine_transactions WHERE user_id='".(int)$userid."' AND status='confirmed'";
+        $result = smart_mysql_query($query);
+
+        if (mysql_num_rows($result) != 0)
+        {
+            $row_confirmed = mysql_fetch_array($result);
+
+            if ($row_confirmed['total'] > 0)
+            {
+                $row_paid = mysql_fetch_array(smart_mysql_query("SELECT SUM(amount) AS total FROM cashbackengine_transactions WHERE user_id='".(int)$userid."' AND ((status='paid' OR status='request') OR (payment_type='Withdrawal' AND status='declined'))"));
+
+                $balance = $row_confirmed['total'] - $row_paid['total'];
+
+                return DisplayMoney($balance, $hide_currency_option);
+            }
+            else
+            {
+                return DisplayMoney(0, $hide_currency_option);
+            }
+
+        }
+        else
+        {
+            return DisplayMoney("0.00", $hide_currecy_option);
+        }*/
+    }
+
+  public static function DisplayMoney($amount, $hide_currency = 0, $hide_zeros = 0)
+    {
+        $newamount = number_format($amount, 2, '.', '');
+
+        if ($hide_zeros == 1)
+        {
+            $cents = substr($newamount, -2);
+            if ($cents == "00") $newamount = substr($newamount, 0, -3);
+        }
+
+        if ($hide_currency != 1)
+        {
+            switch (Config('constants.SITE_CURRENCY_FORMAT'))
+            {
+                case "1": $newamount = Config('constants.SITE_CURRENCY').$newamount; break;
+                case "2": $newamount = Config('constants.SITE_CURRENCY')." ".$newamount; break;
+                case "3": $newamount = Config('constants.SITE_CURRENCY').number_format($amount, 2, ',', ''); break;
+                case "4": $newamount = $newamount." ".Config('constants.SITE_CURRENCY'); break;
+                case "5": $newamount = $newamount.Config('constants.SITE_CURRENCY'); break;
+                default: $newamount = Config('constants.SITE_CURRENCY').$newamount; break;
+            }
+        }
+
+        return $newamount;
     }
 }

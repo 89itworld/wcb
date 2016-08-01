@@ -2,15 +2,389 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95c3864b-0ac4-456e-a8c7-df56c44b9dc4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Library/MD5HashServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Library/MD5Hasher.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/01ea0c3007f11224950c76108fd06db6eb3257fe.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/03184563d1b278f80bb71830bcf0488494e98335.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/0d9b2dbe27b2da704080ff34e9dae402761f1647.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/10c13e17888d38f3a83bbf9ac7d8b90932c5842d.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/17503f848b117503a664a33b1883765bedc6440c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/2779e3cd7a88cddfa5e2af32db3ee118354bd432.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/38b8cac3e80ce890b2bc6f84247e91c582740c1f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/49f18be9a581dba55c7a56bfcb57d4335c694a0f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/4cc2717a1826919fc4b4f4a467b2a01ec6c98a3a.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/5a3b09a2cba9bec35957127cc5baa29060486315.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/63d48c767907954f917bc2c6e388d8c89c576797.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/6400a857e50c36714d5b728661338f88a5e12a85.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/68ea273b2bf8c53906212a8b6f52659ef18e5377.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/75a0b274a4738767bd4fe8c3535f8d251989625f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/7be568ee944012ce2916afdf29b2769ee7ee11cb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/8528f31c46efa8f87cdfe291dce5d6b0acc0f8e8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/904d9eb8a28bb887c178eac2b41eec3e95f71631.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/941a054be8b344449683f96a072044b6b85b1a86.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/a25dfaa597e54200004de0c2b360f42d4ac14ae5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/a8c087e1e2900ccc5d6e1c56a9ccebd13f7f5589.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/b2026192959f508786c8e275480b20f1f8f4e3b2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/b27ca97144184206e84fa1f995dff41f0133958c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/b54758077b34e22572dad900b07b4b9648475add.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/bdfc18f27c915da9e5395f16250ce3a87cf3a1a1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/be7cc1c6c44e364cefbee5b10f9c733b8aecfa08.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/d0c07275eb286eb12f754c44c415d2d798d0a038.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/dc4efd724ce2284d60dbb75679e09aa5ea8427e0.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/dcd5667e4aedad35d37a341af9ab1ab6466fc21d.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/e66630a3fe128a2de3de5cad3b38c3b6b89411ce.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/fe1c884e3163ecc91472d473b3b1d5eb19034da3.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/about/dialogs/logo_ckeditor.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/icons.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/icons.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/icons_hidpi.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/icons_hidpi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/image/images/noimage.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/image/images/noimage.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/link/images/anchor.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/link/images/anchor.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/link/images/hidpi/anchor.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/link/images/hidpi/anchor.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/magicline/images/hidpi/icon.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/magicline/images/hidpi/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/magicline/images/icon-rtl.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/magicline/images/icon-rtl.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/magicline/images/icon.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/magicline/images/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/img/github-top.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/img/github-top.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/img/header-bg.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/img/header-bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/img/header-separator.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/img/header-separator.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/img/logo.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/img/navigation-tip.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/img/navigation-tip.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/assets/inlineall/logo.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/assets/inlineall/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/assets/sample.jpg" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/assets/sample.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/font/fontello.eot" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/font/fontello.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/font/fontello.woff" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/font/fontello.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/icons.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/icons.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/icons_hidpi.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/icons_hidpi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/images/arrow.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/images/arrow.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/images/close.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/images/close.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/images/hidpi/close.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/images/hidpi/close.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/images/hidpi/lock-open.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/images/hidpi/lock-open.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/images/hidpi/lock.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/images/hidpi/lock.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/images/hidpi/refresh.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/images/hidpi/refresh.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/images/lock-open.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/images/lock-open.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/images/lock.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/images/lock.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/images/refresh.png" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/images/refresh.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/images/spinner.gif" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/images/spinner.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor_4.5.10_standard.zip" afterPath="$PROJECT_DIR$/public/js/ckeditor_4.5.10_standard.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/captcha-com/laravel-captcha" afterPath="$PROJECT_DIR$/vendor/captcha-com/laravel-captcha" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env" afterPath="$PROJECT_DIR$/.env" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Helpers/MyHlp.php" afterPath="$PROJECT_DIR$/app/Helpers/MyHlp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/NetworkController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/NetworkController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/RetailerController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/RetailerController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Categories.php" afterPath="$PROJECT_DIR$/app/Models/Categories.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/RetailerToCategory.php" afterPath="$PROJECT_DIR$/app/Models/RetailerToCategory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Retailers.php" afterPath="$PROJECT_DIR$/app/Models/Retailers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Library/Userfunctions.php" afterPath="$PROJECT_DIR$/app/Library/Userfunctions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/admin.css" afterPath="$PROJECT_DIR$/public/css/admin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/admin_login.css" afterPath="$PROJECT_DIR$/public/css/admin_login.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/cashbackengine.css" afterPath="$PROJECT_DIR$/public/css/cashbackengine.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/foundation.min.css" afterPath="$PROJECT_DIR$/public/css/foundation.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/layout.css" afterPath="$PROJECT_DIR$/public/css/layout.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/CHANGES.md" afterPath="$PROJECT_DIR$/public/js/ckeditor/CHANGES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/LICENSE.md" afterPath="$PROJECT_DIR$/public/js/ckeditor/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/README.md" afterPath="$PROJECT_DIR$/public/js/ckeditor/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/adapters/jquery.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/adapters/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/build-config.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/build-config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/ckeditor.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/ckeditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/config.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/contents.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/contents.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/af.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/af.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/ar.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/ar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/bg.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/bn.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/bn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/bs.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/bs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/ca.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/cs.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/cy.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/cy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/da.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/de-ch.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/de-ch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/de.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/el.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/en-au.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/en-au.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/en-ca.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/en-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/en-gb.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/en-gb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/en.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/eo.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/eo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/es.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/et.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/et.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/eu.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/eu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/fa.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/fi.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/fo.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/fo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/fr-ca.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/fr-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/fr.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/gl.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/gl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/gu.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/gu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/he.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/he.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/hi.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/hi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/hr.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/hu.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/id.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/is.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/is.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/it.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/ja.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/ka.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/ka.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/km.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/km.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/ko.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/ko.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/ku.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/ku.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/lt.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/lt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/lv.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/mk.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/mk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/mn.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/mn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/ms.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/ms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/nb.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/nb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/nl.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/no.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/no.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/pl.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/pt-br.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/pt-br.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/pt.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/ro.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/ro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/ru.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/si.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/si.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/sk.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/sl.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/sl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/sq.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/sq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/sr-latn.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/sr-latn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/sr.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/sr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/sv.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/sv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/th.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/tr.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/tt.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/tt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/ug.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/ug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/uk.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/vi.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/vi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/zh-cn.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/zh-cn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/lang/zh.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/lang/zh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/about/dialogs/about.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/about/dialogs/about.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/clipboard/dialogs/paste.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/clipboard/dialogs/paste.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/dialog/dialogDefinition.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/image/dialogs/image.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/image/dialogs/image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/link/dialogs/anchor.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/link/dialogs/anchor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/link/dialogs/link.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/link/dialogs/link.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/pastefromword/filter/default.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/pastefromword/filter/default.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/scayt/CHANGELOG.md" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/scayt/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/scayt/LICENSE.md" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/scayt/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/scayt/README.md" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/scayt/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/scayt/dialogs/options.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/scayt/dialogs/options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/scayt/dialogs/toolbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/af.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/af.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/ar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/cy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/da.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/eo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/et.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/eu.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/eu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/gl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/he.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/km.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/ko.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/ko.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/ku.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/lt.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/lt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/nb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/no.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/si.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/sl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/sq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/sv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/tt.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/tt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/ug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/vi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/lang/zh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/table/dialogs/table.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/table/dialogs/table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/wsc/LICENSE.md" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/wsc/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/wsc/README.md" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/wsc/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/wsc/dialogs/ciframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/wsc/dialogs/wsc.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/wsc/dialogs/wsc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/plugins/wsc/dialogs/wsc_ie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/css/samples.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/css/samples.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/index.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/js/sample.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/js/sample.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/js/sf.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/js/sf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/ajax.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/ajax.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/api.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/api.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/appendto.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/appendto.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/assets/posteddata.php" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/assets/posteddata.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/assets/uilanguages/languages.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/assets/uilanguages/languages.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/datafiltering.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/datafiltering.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/dialog/assets/my_dialog.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/dialog/assets/my_dialog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/dialog/dialog.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/dialog/dialog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/divreplace.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/divreplace.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/enterkey/enterkey.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/enterkey/enterkey.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/htmlwriter/outputforflash.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/htmlwriter/outputforflash.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/htmlwriter/outputhtml.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/htmlwriter/outputhtml.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/index.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/inlineall.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/inlineall.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/inlinebycode.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/inlinebycode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/inlinetextarea.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/inlinetextarea.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/jquery.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/jquery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/magicline/magicline.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/magicline/magicline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/readonly.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/readonly.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/replacebyclass.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/replacebyclass.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/replacebycode.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/replacebycode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/sample.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/sample.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/sample.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/sample.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/sample_posteddata.php" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/sample_posteddata.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/tabindex.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/tabindex.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/toolbar/toolbar.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/toolbar/toolbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/uicolor.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/uicolor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/uilanguages.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/uilanguages.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/wysiwygarea/fullpage.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/wysiwygarea/fullpage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/old/xhtmlstyle.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/old/xhtmlstyle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/css/fontello.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/css/fontello.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/font/config.json" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/font/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/font/fontello.svg" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/font/fontello.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/index.html" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/dialog.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/dialog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/dialog_ie.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/dialog_ie.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/dialog_ie7.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/dialog_ie7.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/dialog_ie8.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/dialog_ie8.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/dialog_iequirks.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/dialog_iequirks.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/editor.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/editor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/editor_gecko.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/editor_gecko.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/editor_ie.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/editor_ie.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/editor_ie7.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/editor_ie7.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/editor_ie8.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/editor_ie8.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/editor_iequirks.css" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/editor_iequirks.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/readme.md" afterPath="$PROJECT_DIR$/public/js/ckeditor/skins/moono/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/ckeditor/styles.js" afterPath="$PROJECT_DIR$/public/js/ckeditor/styles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/foundation.min.js" afterPath="$PROJECT_DIR$/public/js/foundation.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.calendrical.js" afterPath="$PROJECT_DIR$/public/js/jquery.calendrical.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/email.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/email.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/login.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/login.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/network/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/network/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/reset.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/reset.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/retailers/add.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/retailers/add.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/retailers/retailer.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/retailers/retailer.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/retailers/retailers.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/retailers/retailers.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/adminLogin.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/adminLogin.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/common/categories.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/common/categories.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/common/user_sidebar.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/common/user_sidebar.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/users/user_account.blade.php" afterPath="$PROJECT_DIR$/resources/views/users/user_account.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/4a107ccde31566dfc5bbbc63844da62f02d51cdb.php" afterPath="$PROJECT_DIR$/storage/framework/views/4a107ccde31566dfc5bbbc63844da62f02d51cdb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/c10ee7ec8c165bfbe1ea28d1ea4cb077dca83e62.php" afterPath="$PROJECT_DIR$/storage/framework/views/c10ee7ec8c165bfbe1ea28d1ea4cb077dca83e62.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/d5bd7d7f702963540979eb1bea45a4f88d42e5e9.php" afterPath="$PROJECT_DIR$/storage/framework/views/d5bd7d7f702963540979eb1bea45a4f88d42e5e9.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/d993085a741c9182d259334f5df7fc6938b613e4.php" afterPath="$PROJECT_DIR$/storage/framework/views/d993085a741c9182d259334f5df7fc6938b613e4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
     </list>
     <ignored path="whitecashback_laravel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,8 +409,8 @@
       <file leaf-file-name="RetailerController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/RetailerController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="125" column="40" selection-start-line="125" selection-start-column="40" selection-end-line="125" selection-end-column="40" />
+            <state relative-caret-position="297">
+              <caret line="122" column="40" selection-start-line="122" selection-start-column="40" selection-end-line="122" selection-end-column="40" />
               <folding>
                 <element signature="e#46#72#0#PHP" expanded="true" />
               </folding>
@@ -260,16 +634,16 @@
       <workItem from="1469598147675" duration="23151000" />
       <workItem from="1469768045366" duration="3651000" />
       <workItem from="1469774169179" duration="19710000" />
-      <workItem from="1470022317750" duration="13020000" />
+      <workItem from="1470022317750" duration="13931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67566000" />
+    <option name="totallyTimeSpent" value="68477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19591528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -579,10 +953,10 @@
         <state relative-caret-position="98">
           <caret line="59" column="82" selection-start-line="59" selection-start-column="82" selection-end-line="59" selection-end-column="82" />
           <folding>
-            <marker date="1470035609571" expanded="true" signature="11737:12022" placeholder="..." />
-            <marker date="1470035609571" expanded="true" signature="11749:12006" placeholder="..." />
-            <marker date="1470035609571" expanded="true" signature="13662:13716" placeholder="..." />
-            <marker date="1470035609571" expanded="true" signature="13675:13715" placeholder="..." />
+            <marker date="1470040708757" expanded="true" signature="11737:12022" placeholder="..." />
+            <marker date="1470040708757" expanded="true" signature="11749:12006" placeholder="..." />
+            <marker date="1470040708757" expanded="true" signature="13662:13716" placeholder="..." />
+            <marker date="1470040708757" expanded="true" signature="13675:13715" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -605,8 +979,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/RetailerController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="125" column="40" selection-start-line="125" selection-start-column="40" selection-end-line="125" selection-end-column="40" />
+        <state relative-caret-position="297">
+          <caret line="122" column="40" selection-start-line="122" selection-start-column="40" selection-end-line="122" selection-end-column="40" />
           <folding>
             <element signature="e#46#72#0#PHP" expanded="true" />
           </folding>
