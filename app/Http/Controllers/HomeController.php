@@ -33,7 +33,10 @@ class HomeController extends Controller
     }
     public function getIndex()
     {
-       
+       /* echo "<pre>";
+        print_r(\Auth::user()->username);exit;*/
+
+
         //$this->pr($cat_retailers);
         /*  $cashback = WhitecashbackRetailers::limit(12)->where('featured', '=', 1)
               ->where('end_date', '=', "0000-00-00 00:00:00")

@@ -47,4 +47,3 @@ Route::get('register/verify/{confirmationCode}', [
 Blade::extend(function($value) {
     return preg_replace('/\@var(.+)/', '<?php ${1}; ?>', $value);
 });
-

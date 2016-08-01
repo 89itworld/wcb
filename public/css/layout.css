@@ -212,6 +212,7 @@
 .prof-info{width:100%;float:left;margin:20px 0 0 0 }
 .prof-info label{font-size: 12px;padding: 0 0 3px 0;display: block;float: left;margin: 6px 10px 0 0;width: 120px;color: #666;}
 .prof-info input[type='text']{width:58.7%!important;float:left!important;clear: none!important;border-radius:2px;}
+.prof-info input[type='email']{width:58.7%!important;}
 .prof-info input[type='password']{width:58%!important;float:left!important;clear: none!important;border-radius:2px;}
 .prof-info input[type="submit"]{float: right}
 .prof-info select{width:58%!important;float:left;clear: none!important;border-radius:2px;}
@@ -619,3 +620,4 @@ button.close {
 	padding-right: 35px;
 }
 .alert-success{background-color:#dff0d8;border-color:#d6e9c6;color:#3c763d}.alert-success hr{border-top-color:#c9e2b3}.alert-success .alert-link{color:#2b542c}
+.error{font-size:12px;color:red;margin-left:35%;}
