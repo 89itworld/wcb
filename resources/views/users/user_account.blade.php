@@ -1,4 +1,5 @@
 @extends('layouts.home')
+
 @section('content')
 <div id="innerPage">
     <div class="container">
@@ -13,7 +14,7 @@
                     <div class="prof-info">
                         <div class="prof-cell contForm">
                             <label>First Name</label>
-                            {!! Form::text('fname',$user_data->fname,['id'=>'fname','placeholder'=>'Firat Name']) !!}
+                            {!! Form::text('fname',$user_data->fname,['id'=>'fname','placeholder'=>'First Name']) !!}
                             <span class="error">{!! $errors->first('fname') !!}</span>
                         </div> <!-- prof-cell -->
                         <div class="prof-cell contForm">
@@ -72,15 +73,15 @@
                        {!!  Form::open(['url'=>'updatePassword','method'=>'post'])  !!}
                         <div class="prof-cell contForm">
                             <label>Current Password</label>
-                            {!! Form::text('old_password',['id'=>'old_password','placeholder'=>'Password']) !!}
+                            {!! Form::password('old_password',['id'=>'old_password','placeholder'=>'Password']) !!}
                         </div> <!-- prof-cell -->
                         <div class="prof-cell contForm">
                             <label>New Password</label>
-                            {!! Form::password('password',['id'=>'password','placeholder'=>'Password']) !!}
+                            <input type="password" name="name" value="">
                         </div> <!-- prof-cell -->
                         <div class="prof-cell contForm">
                             <label>Confirm Password</label>
-                            {!! Form::password('confirm_password',['id'=>'confirm_password','placeholder'=>'Password']) !!}
+                            <input type="password" name="name" value="">
                         </div> <!-- prof-cell -->
 
                         <div class="prof-cell contForm">

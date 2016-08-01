@@ -7,6 +7,7 @@
  */
 namespace App\library;
 use App\Models\Coupons;
+use App\Models\Settings;
 class Userfunctions{
     /**
      * @param       $button
@@ -143,6 +144,4 @@ class Userfunctions{
         /*$setting_data=Settings::where('setting_key',$search)->select(['setting_value'])->get();
         print_r($search);exit;*/
     }
-
-
 }
