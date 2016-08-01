@@ -67,14 +67,13 @@
 
             </div> <!-- mobileMenu -->
         </div> <!-- sitemenu -->
-        @if(\Auth::user())
         <div class="userLogs">
             <div class="sitemenu">
                 <nav>
                     <ul>
                         <li class="sub-menu-parent">
                             <a href="">
-                                <h3><i class="fa fa-user wuser"></i> {!! \Auth::user()->username !!}<label> ( Wallet <i class="fa fa-rupee"></i>200 )</label></h3>
+                                <h3><i class="fa fa-user wuser"></i> Naresh<label> ( Wallet <i class="fa fa-rupee"></i>200 )</label></h3>
                             </a>
                             <ul class="sub-menu">
                                 <li><a href="">My Wallet</a></li>
@@ -89,7 +88,6 @@
                 </nav>
             </div> <!-- sitemenu -->
         </div> <!-- userLogs -->
-       @endif
 
     </div> <!-- container -->
 </div> <!-- navmenu -->

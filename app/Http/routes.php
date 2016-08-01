@@ -47,3 +47,34 @@ Route::get('register/verify/{confirmationCode}', [
 Blade::extend(function($value) {
     return preg_replace('/\@var(.+)/', '<?php ${1}; ?>', $value);
 });
+
+
+/*
+   * Created At: 29-July-2016
+   *Author: Amit
+   *Description:Admin Routes
+  */
+
+Route::group(array('namespace'=>'Admin'), function()
+{
+    Route::get('/admin',  'LoginController@login');
+    Route::post('/admin','LoginController@postLogin');
+    Route::get('/admin/logout','LoginController@logout');
+    Route::get('/admin/password/reset','LoginController@reset');
+    Route::get('/admin/dashboard',array('uses'=>'LoginController@dashboard'));
+    Route::get('/admin/retailers',array('uses'=>'RetailerController@index'));
+    Route::get('/admin/view/retailers/{id}',array('uses'=>'RetailerController@view'));
+    Route::get('/admin/retailers/add','RetailerController@add');
+
+    Route::get('/admin/website',array('uses'=>'WebsiteController@index'));
+
+
+    Route::get('/admin/reviews',array('uses'=>'ReviewsController@index'));
+    Route::get('/admin/pages',array('uses'=>'PagesController@index'));
+    Route::get('/admin/templates',array('uses'=>'TemplatesController@index'));
+    Route::get('/admin/sendmail',array('uses'=>'LoginController@sendmail'));
+    Route::get('/admin/network',array('uses'=>'NetworkController@index'));
+
+
+
+});
