@@ -72,7 +72,7 @@
                        {!!  Form::open(['url'=>'updatePassword','method'=>'post'])  !!}
                         <div class="prof-cell contForm">
                             <label>Current Password</label>
-                            {!! Form::text('old_password',$user_data->password,['id'=>'old_password','placeholder'=>'Password']) !!}
+                            {!! Form::text('old_password',['id'=>'old_password','placeholder'=>'Password']) !!}
                         </div> <!-- prof-cell -->
                         <div class="prof-cell contForm">
                             <label>New Password</label>

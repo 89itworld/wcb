@@ -104,6 +104,7 @@ class UserController extends Controller
                 User::create([
                     'username' => Input::get('username'),
                     'email' => Input::get('email'),
+                    //'password' => md5(sha1(Input::get('password'))),
                     'password' => md5(sha1(Input::get('password'))),
                     'activation_key' => $confirmation_code,
                     'unsubscribe_key' => $confirmation_code,
@@ -213,7 +214,7 @@ class UserController extends Controller
           $countries[]=$cntry['name'];
 
       $user_data=User::where('id',$user->id)->select('username','fname','lname','email','address','address2','city','state','country','password','phone')->first();
-     return view('users.user_account')->with('user_data',$user_data)->with('countries',$countries);
+      return view('users.user_account')->with('user_data',$user_data)->with('countries',$countries);
   }
 
   public function UpdateUserInfo(Request $request)
@@ -244,6 +245,15 @@ class UserController extends Controller
 
            }
         }
+    }
+
+    /*
+     * Author: yasar
+     * created at: 1-Aug-2016
+     * Description:POST function to update user password
+     * */
+    public function UpdatePassword(){
+
     }
 
 }
