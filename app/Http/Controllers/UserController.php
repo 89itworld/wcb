@@ -252,7 +252,8 @@ class UserController extends Controller
      * created at: 1-Aug-2016
      * Description:POST function to update user password
      * */
-    public function UpdatePassword(){
+    public function UpdatePassword(Request $request){
+       
 
   }
 
