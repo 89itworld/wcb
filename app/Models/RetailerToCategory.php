@@ -8,4 +8,6 @@ class RetailerToCategory extends Model
 {
     //
     protected $table = 'retailer_to_category';
+
+    public $timestamps = false;
 }

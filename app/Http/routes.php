@@ -63,10 +63,13 @@ Route::group(array('namespace'=>'Admin'), function()
     Route::get('/admin/password/reset','LoginController@reset');
     Route::get('/admin/dashboard',array('uses'=>'LoginController@dashboard'));
     Route::get('/admin/retailers',array('uses'=>'RetailerController@index'));
+
     Route::get('/admin/view/retailers/{id}',array('uses'=>'RetailerController@view'));
     Route::get('/admin/retailers/add','RetailerController@add');
+    Route::post('/admin/retailers/add','RetailerController@store');
 
     Route::get('/admin/website',array('uses'=>'WebsiteController@index'));
+
 
 
     Route::get('/admin/reviews',array('uses'=>'ReviewsController@index'));
